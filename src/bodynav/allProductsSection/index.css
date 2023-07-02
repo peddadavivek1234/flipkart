@@ -1,0 +1,155 @@
+.allProductsSection{
+    display: flex;
+    flex-flow: row;
+}
+
+.productSection{
+    display: block;
+    padding: 0px 16px 0px 0px;
+}
+
+.AllProducts{
+    position: relative;
+    background: #fff;
+    box-shadow: 0 1px 8px 0 rgba(0,0,0,.06);
+}
+
+.filterSection{
+    padding-bottom: 12px;
+    padding: 16px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.filterContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filterComponent{
+    font-size: 18px;
+    text-transform: capitalize;
+    width: 67%;
+    letter-spacing: .3px;
+    display: inline-block;
+}
+
+.categoriesList{
+    font-size: 14px;
+}
+
+.CategoriesListContent{
+    padding: 16px;
+    border-bottom: 1px solid rgb(240, 240, 240);
+}
+
+.CategoriesListComponent{
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgb(33, 33, 33);
+    margin-bottom: 5px;
+}
+
+.mobilesAndCategories{
+    padding: 5px 0px;
+    color: rgb(33, 33, 33);
+    white-space: nowrap;
+}
+
+.mobileCategoriesCon{
+    color: rgb(135, 135, 135);
+    width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.priceContent{
+    padding: 16px;
+    border-bottom: 1px solid rgb(240, 240, 240);
+
+}
+
+.allPriceContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.priceComponent{
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    display: inline-block;
+}
+
+.minToMax{
+    color: #a3a3a3;
+    font-size: 14px;
+    margin: 5px -4px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+}
+
+.minPrice{
+    display: inline-block;
+    flex-grow: 2;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.selectCategory{
+    width: 100%;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 1px;
+    appearance: none;
+    height: 24px;
+    font-size: 14px;
+    color: rgb(33, 33, 33);
+    line-height: 1;
+    padding: 0px 5px;
+    outline: none;
+}
+
+.downArrow{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-right: 10px;
+}
+
+.Min{
+    padding: 0px 7px;
+    
+}
+
+.To{
+    display: inline-block;
+    margin: 0px 9px;
+    font-size: 14px;
+    color: rgb(135, 135, 135);
+    line-height: 1;
+    flex: 1 1 0%;
+    text-align: center;
+}
+
+.Max{
+    display: flex;
+    margin-left: 1.5px;
+    flex-grow: 2;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.Max{
+    padding: 0px 7px;
+}
+

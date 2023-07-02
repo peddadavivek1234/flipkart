@@ -1,0 +1,29 @@
+.tippyContent{
+    fill: #fff;
+    width: 1000px;
+}
+.mobiles{
+    display: flex;
+    background-color: #fff;
+}
+
+.mobileAccessoriesContent{
+    padding-left: 20px;
+    width: 200px;
+}
+
+.mobileTippyComponent{
+    background-color: #D3D3D3;
+    padding-left: 20px;
+    width: 200px;
+}
+
+.mobilesComponent{
+    margin-left: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.tippyContentComponent{
+    margin-top: 20px;
+}

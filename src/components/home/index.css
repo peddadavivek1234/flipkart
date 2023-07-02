@@ -1,0 +1,305 @@
+.homeComponent{
+    background: #fff;
+    min-height: 112px;
+    position: relative;
+    min-height: 40px;
+    color: #000;    
+    width: 100%;
+    z-index: 6;
+}
+
+.homeContent{
+    width: 100%;
+    left: 0;
+    justify-content: center;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.16);
+}
+
+.homeNav{
+    position: sticky;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    max-width: 1280px;
+    color: #212121;
+}
+
+.GroceryContent{
+    padding-left: 22px;
+    padding: 12px 8px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.GroceryComponent{
+    margin-bottom: 4px;
+    
+}
+
+.linkGrocery{
+    text-decoration: none;
+    color: #000;
+}
+
+.linkGrocery:hover{
+    color: #2874f0;
+}
+
+.GroceryImg{
+    position: relative;
+    margin: 0 auto;
+    height: 64px;
+    width: 64px;
+    display: flex;
+}
+
+.groceryImage{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    opacity: 1;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.groceryPara{
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    padding-top: 10px;
+}
+
+.angleArrow{
+    height: 25px;
+    width: 25px;
+}
+
+.tippyImg{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.tippyImg:hover{
+    color: #2874f0;
+}
+
+.bodyContent{
+    display: flex;
+    flex-flow: row;
+}
+
+.bodyComponent{
+    display: block;
+    flex-grow: 1;
+    overflow: auto;
+    padding: 0px 0px 10px;
+}
+
+.bodyAll{
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+    border-top: 1px solid rgb(234, 234, 234);
+    height: 100%;
+    display: flex;
+    align-items: stretch;
+    overflow: hidden;
+}
+
+.bestComponent{
+    width: 230px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-image: url("https://rukminim1.flixcart.com/fk-p-flap/278/278/image/7593e7b6640822c1.jpg?q=90");
+    background-position: 0px bottom;
+}
+
+.bestContent{
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 28px 10px 124px;
+}
+
+.bestofElectric{
+    overflow-wrap: break-word;
+    font-size: 30px;
+    line-height: 1.38;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.viewAllContent{
+    margin-top: 24px;
+}
+
+.viewLink{
+    display: inline-block;
+    border-radius: 2px;
+    color: #212121;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: 500;
+    transition: box-shadow .2s ease;
+    vertical-align: super;
+    background: #fff;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+    border: 1px solid #e0e0e0;
+    background: #2874f0;
+    color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    border: none;
+    text-decoration: none;
+}
+
+.electronicDevices{
+    width: calc(100% - 230px);
+}
+
+.devicesComponent {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .bestTrimmers {
+    flex: 0 0 200px;
+    scroll-snap-align: start;
+    margin-right: 10px;
+  }
+  
+  .slider-arrow-left,
+  .slider-arrow-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .slider-arrow-left {
+    left: 10px;
+  }
+  
+  .slider-arrow-right {
+    right: 10px;
+  }
+  
+
+.electDev{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.productDevices{
+    overflow-x: hidden;
+    padding-bottom: 64px;
+    margin-bottom: -64px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 auto;
+}
+
+.devicesContent{
+    flex: 0 0 auto;
+    flex: none;
+    overflow: hidden;
+    width: 1866px;
+}
+
+.devicesComponent{
+    transition: transform 0.4s ease-in-out 0s;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.bestTrimmers{
+    display: flex;
+    flex-direction: column;
+    width: 232px;
+}
+
+.trimmerLink{
+    padding: 25px 15px;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    max-height: 366px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.trimmerImg{
+    position: relative;
+    margin: 0px auto;
+    height: 200px;
+    width: 200px;
+}
+
+.trimmerImage{
+    position: absolute;
+    inset: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    opacity: 1;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.trimmerPara{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #000;
+}
+
+.trimmerPrice{
+    font-size: 16px;
+    color: rgb(56, 142, 60);
+    padding-top: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.productsName{
+    opacity: 0.6;
+    padding-top: 7px;   
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

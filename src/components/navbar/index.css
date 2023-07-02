@@ -1,0 +1,254 @@
+.navbarComponent{
+    padding-bottom: 56px;
+    min-width: 978px;
+    position: relative;
+}
+
+.navbarContent{
+    position: fixed;
+    display: flex;
+    flex: auto;
+    will-change: transform;
+    width: 100%;
+    height: 56px;
+    background-color: #2874f0;
+    color: #f0f0f0;
+    z-index: 10;
+    flex-direction: row;
+}
+
+.navbar{
+    height: 100%;
+    min-width: 124px;
+}
+
+.allContent{
+    display: flex;
+    max-width: 1248px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.flipkartlogo{
+    display: flex;
+    justify-content: flex-end;
+    min-width: 137px;
+}
+
+.flipImg{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.flipkartImg{
+    display: block;
+    width: 75px;
+}
+
+
+.exploreContent{
+    font-size: 11px;
+    font-style: italic;
+    margin-top: -1px;
+    display: flex;
+}
+
+.explorePara{
+    color: #f0f0f0;
+}
+
+.plusContent{
+    color: #ffe500;
+    font-weight: 500;
+    margin-right: 2px;
+}
+
+.plusImg{
+    width: 10px;
+    height: 10px;
+}
+
+.searchContent{
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+    min-width: 304px;
+    width: calc(100% - 540px);
+    margin: 0 auto 0 12px;
+    align-items: center;
+}
+
+.searchComponent{
+    display: inline-block;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.23);
+    width: 100%;
+    height: 36px;
+    max-width: 564px;
+    position: relative;
+}
+
+.searchInput{
+    display: flex;
+    justify-content: space-between;
+    flex: auto;
+    border-radius: 2px;
+    background-color: var(--color-white-bg);
+}
+
+.searchType{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.input{
+    padding: 0 16px;
+    border-radius: 2px 0 0 2px;
+    border: 0;
+    outline: 0 none;
+    font-size: 14px;
+    height: 36px;
+    width: 100%;
+}
+
+.searchbutton{
+    justify-content: flex-end;
+    border: 1px solid #fff;
+    background-color: #fff;
+    height: 36px;
+    width: 44px;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 4px 12px 0 8px;
+}
+
+.searchIcon{
+    width: 20px;
+    height: 20px;
+    color: #2874f0;
+}
+
+.buttonContent{
+    display: flex;
+    flex: 0 0 auto;
+    margin: 0 20px;
+    max-width: 150px;
+    align-content: center;
+    justify-content: flex-end;
+}
+
+.loginButton{
+    min-width: 112px;
+    align-items: center;
+}
+
+.loginContent{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 100%;
+    line-height: 20px;
+    font-size: 16px;
+    letter-spacing: .1px;
+    font-weight: 500;
+    color: #fff;
+    user-select: none;
+}
+
+.loginComponent{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.Login{
+    color: #2874f0;
+    font-weight: 500;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    height: 32px;
+    padding: 5px 40px;
+    border: 1px solid #dbdbdb;
+}
+
+.becomeSeller{
+    display: flex;
+    align-items: center;
+    line-height: 20px;
+    font-size: 16px;
+    letter-spacing: .1px;
+    font-weight: 500;
+    color: #fff;
+    position: relative;
+}
+
+.moreComponent{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 100%;
+    line-height: 20px;
+    font-size: 16px;
+    letter-spacing: .1px;
+    font-weight: 500;
+    color: #fff;
+    user-select: none;
+}
+
+.moreContent{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.more{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 108px;
+    display: block;
+    fill: #fff;
+}
+
+.MorePara{
+    color: #fff;
+}
+
+.paraContent{
+    margin-left: 20px;
+}
+
+.cartComponent{
+    display: inline-block;
+    position: relative;
+}
+
+.cartContent{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+    line-height: 20px;
+    font-size: 16px;
+    letter-spacing: .1px;
+    font-weight: 500;
+    color: #fff;
+    position: relative;
+}
+
+.shopImg{
+    width: 14px;
+    height: 14px;
+}
+
+.CartPara{
+    color: #fff;
+}

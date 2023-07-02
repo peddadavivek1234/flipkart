@@ -1,0 +1,39 @@
+.imagesPosters{
+    display: flex;
+    flex-flow: column;
+}
+
+.firstImage{
+    display: block;
+    padding: 0px;
+}
+
+.imageFirst{
+    width: 100%;
+    position: relative;
+    padding-top: 25.18%;
+}
+
+.imagePost{
+    overflow: hidden;
+    position: relative;
+    filter: none !important;
+}
+
+.imagePostDup{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 20px;
+}

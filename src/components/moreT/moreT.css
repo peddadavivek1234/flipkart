@@ -1,0 +1,10 @@
+.moretComponent{
+    width: 200px;
+    
+}
+
+.motrTcontent{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
